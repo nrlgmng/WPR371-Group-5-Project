@@ -1,1 +1,69 @@
-<h1>Welcome to the Community Portal</h1>
+<%- .include('partials/header') %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="public\css\style.css" />
+</head>
+
+<body>
+
+
+  <video class="background-video" autoplay muted loop playsinline>
+    <source src="WhatsApp Video 2025-05-06 at 18.48.45_45cb8f04.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+
+  <nav class="navigationWrapper">
+    <div class="logoWrapper">
+      <span class="stylish">Florida</span>
+      <span class="logo">Community</span>
+    </div>
+    <ul class="navigation">
+      <li class="parent"><a class="link" href="#">Home</a></li>
+      <li class="parent"><a class="link" href="#">About</a></li>
+      <li class="parent" id="clients">
+        <a class="link" href="#"><i class="fas fa-minus"></i> Events <i class="fas fa-plus"></i></a>
+      </li>
+      <li class="parent" id="services">
+        <a class="link" href="#"><i class="fas fa-minus"></i> Contact <i class="fas fa-plus"></i></a>
+        <ul class="subnavigation">
+          <li><a class="link" href="#">Print Design</a></li>
+          <li><a class="link" href="#">Web Design</a></li>
+          <li><a class="link" href="#">Mobile App Development</a></li>
+        </ul>
+      </li>
+      <li class="parent"><a class="link" href="#">Thank You</a></li>
+    </ul>
+  </nav>
+
+   <!-- Welcome Section -->
+   <section class="welcome-section">
+    <h1>Welcome to Florida Community</h1>
+    <p>We are excited to have you here! Stay tuned for upcoming events and updates.</p>
+  </section>
+
+  <!-- Upcoming Events Placeholder -->
+  <section class="events-section">
+    <h2>Upcoming Events</h2>
+    <p>Details about upcoming events will be displayed here soon.</p>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 Florida Community. All rights reserved.</p>
+    <div class="social-media">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  <a href="https://dribbble.com/shots/5844983-Sub-Nav-Interaction-Concept" class="signature" target="_blank"></a>
+ <script src="public\scripts\HomePage.js"></script>
+</body>
+</html>
+
+
+<%- .include('partials/footer') %>
