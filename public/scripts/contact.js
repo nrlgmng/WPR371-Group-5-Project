@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('form')
   if(form) {
     form.addEventListener('submit', (event) => {
-      const Name = document.getElementById('Name').value.trim()
-      const Surname = document.getElementById('Surname').value.trim()
-      const Email = document.getElementById('Email').value.trim()
-      const Message = document.getElementById('Message').value.trim
+      const name = document.getElementById('Name').value.trim()
+      const surname = document.getElementById('Surname').value.trim()
+      const email = document.getElementById('Email').value.trim()
+      const message = document.getElementById('Message').value.trim
 
-       if (!Name || !Surname || !Email|| !Message) {
+       if (!name || !surname || !email|| !message) {
         event.preventDefault();
         alert('Please fill out all fields');
       } 
