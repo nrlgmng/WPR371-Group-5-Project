@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const name = document.getElementById('Name').value.trim()
       const surname = document.getElementById('Surname').value.trim()
       const email = document.getElementById('Email').value.trim()
-      const message = document.getElementById('Message').value.trim
+      const message = document.querySelector('Message').value.trim
 
        if (!name || !surname || !email|| !message) {
         event.preventDefault();

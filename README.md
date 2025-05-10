@@ -1,11 +1,22 @@
-# Community Portal Project
+# Community Portal Website
+A dynamic web application built with Node.js, Express, and EJS, featuring Home, About, Events, Contact, and Thank You pages.
 
-## Overview
+# Tech used 
+- Node.js (v18+)
+- Express.js (v4+)
+- EJS (v3+)
+- CSS
+- Git & GitHub
+- Nodemon
 
-Starter boilerplate for a Node.js + Express + EJS website.
+# Roles
+- Hannes Smit: Team Lead
+- : Backend Developer
+- : Frontend Developer
+- : Data Manager
 
-## Instructions
 
-1. Run `npm install` to install dependencies.
-2. Use `npm run dev` to start the development server with nodemon.
-3. Add your own route handlers and middleware as needed.
+1. Clone the repository: `git clone <repo-url>`
+2. Install dependencies: `npm install`
+3. Start the server: `npm run dev`
+4. Visit `http://localhost:3000`
