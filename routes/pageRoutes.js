@@ -1,7 +1,7 @@
 // routes/pageRoutes.js
 const express = require('express');
 const router = express.Router();
-const { contactSubmissions } = require('../app');
+const { contactSubmissions } = require('app.js');
 
 // GET: Home page
 router.get('/', (req, res) => {
