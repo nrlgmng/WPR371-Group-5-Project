@@ -17,3 +17,22 @@ services.addEventListener('click', function() {
 $(document).ready(function() {
   $(".welcome-section, .events-section").fadeIn(1000); // Smooth fade-in effect
 });
+// Add a welcome message dynamically
+document.addEventListener('DOMContentLoaded', function() {
+  var welcomeSection = document.querySelector('.welcome-section');
+  if (welcomeSection) {
+    welcomeSection.innerHTML = `
+      <h1>Welcome to Our Website!</h1>
+      <p>We are glad to have you here. Explore our services and stay updated with our latest events.</p>
+    `;
+  }
+
+  // Add a placeholder for upcoming events
+  var eventsSection = document.querySelector('.events-section');
+  if (eventsSection) {
+    eventsSection.innerHTML = `
+      <h2>Upcoming Events</h2>
+      <p>No events scheduled at the moment. Stay tuned for updates!</p>
+    `;
+  }
+});
